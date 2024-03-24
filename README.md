@@ -1,4 +1,6 @@
- An interviewer system utilizing Large Language Models (LLMs) aims to enhance and streamline the hiring process by incorporating advanced Natural Language Processing technologies. This innovative platform integrates LLMs into the system design, enabling it to conduct interviews in a more efficient, accurate, and user-friendly manner. The key benefits include:
+ An interviewer system utilizing Large Language Models (LLMs) aims to enhance and streamline the hiring process by incorporating advanced Natural Language Processing technologies. This innovative platform integrates LLMs into the system design, enabling it to conduct interviews in a more efficient, accurate, and user-friendly manner. 
+
+The key benefits include:
 
 1.  Increased Efficiency: Interviews are automated, scheduled promptly, and conducted concurrently across multiple time zones, resulting in a faster recruitment process.
 2.  Enhanced Candidate Experience: Interviewees can participate from anywhere with an internet connection, eliminating geographical barriers. They can also access resources during the 	 
