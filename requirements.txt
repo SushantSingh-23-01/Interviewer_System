@@ -1,0 +1,19 @@
+# Hard Requirements
+Pytorch
+transformers
+sentence_transformers
+BeautifulSoup
+PyPDF2
+rank_bm25
+duckduckgo_search
+ollama
+models: gemma:2b; mistral
+
+# Soft Rquirements
+fast_whisper
+streamlit
+pyttsx3
+
+# Utility
+colorama
+matplotlib
