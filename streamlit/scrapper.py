@@ -4,6 +4,7 @@ from PyPDF2 import PdfReader
 from collections import Counter
 import ollama
 import time, json
+
 # Smaller Models have hard time falling prompt. This may lead to regex not finding any matches throwing error.
 
 # This topics should be availble on wikipedia.
@@ -93,7 +94,7 @@ def parse_llm_output(text):
     qa_dict = {'Question':parsed_que,'Answer':parsed_ans}
     return qa_dict
 
-def scrape():
+def main():
     start = time.time()
     data = []
     for _ in range(0,5):
@@ -114,4 +115,4 @@ def scrape():
         json.dump(data,file,indent=4)
 
 if __name__ == '__main__':
-    scrape()
+    main()
