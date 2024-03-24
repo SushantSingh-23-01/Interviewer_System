@@ -1,0 +1,58 @@
+[
+    {
+        "user": "Hello I am Jeremy, nice to meet you. Thank you for giving me this opportunity.",
+        "interviewer": "Okay, let's get started! What is your biggest strength when it comes to data analysis?"
+    },
+    {
+        "user": "I have a undergraduate degree of Computer Science from university of Toronto. I have undertaken courses of Machine Learning and Natural Language Processing in my undergrad program.",
+        "interviewer": "Sure, here's a question:\n\nWhat skills and knowledge would you bring to this Data Scientist role that would allow you to contribute to the success of our company?"
+    },
+    {
+        "user": "I have experience in deploying NLP pipelines for performing various tasks such as Named Entity Recognisition, Text Sumarization, Sentiment Analysis, Information Extraction etc.",
+        "interviewer": "How would you ensure the accuracy and quality of NLP pipeline data when dealing with large and diverse datasets?"
+    },
+    {
+        "user": "Clean your data to remove errors, noise, bias, and redundancy. This include: Data Compression, One way to reduce the storage and memory requirements of large data sets is to compress them using algorithms that reduce the size of the files without losing much information. For example, you can use gzip, bzip2, or lzma to compress plain text files, or hdf5, npz, or pickle to compress binary files. Data compression can also speed up the loading and reading of the data, as well as the transfer and backup of the data.",
+        "interviewer": "Sure, here is a question for you:\n\nHow would you clean the data to remove errors, noise, bias, and redundancy?"
+    },
+    {
+        "user": ". It includes evaluating the quality of information, taking care of missing values, taking care of outliers, transforming data, merging and deduplicating data, and handling categorical variables. This basic process is required to ensure if the information is ready for machine learning algorithms, as it helps to diminish the hazard of blunders and enhances the accuracy of the models.",
+        "interviewer": "1. How would you handle missing values in a dataset, considering the context given?"
+    },
+    {
+        "user": "Removing Rows with Missing Values, Not recommended for large datasets: Can discard valuable information. Imputation Methods, Replacing missing values with estimated values. Replace missing values with the mean, median, or mode of the relevant variable, Can be inaccurate: Doesn\u2019t consider the relationships between variables.",
+        "interviewer": "Sure, here's a question for you:\n\nQuestion:\n\nWhich approach would be most appropriate for handling missing values when dealing with a large dataset?"
+    },
+    {
+        "user": "Multiple imputation is powerful at dealing with missing data in multiple variables and multiple data types. The approach can produce much better results than mean and median imputations.",
+        "interviewer": "Sure. Here's a question to help assess the candidate's understanding of multiple imputation:\n\n\"What are the key differences between multiple imputation and other imputation techniques such as mean and median imputation?\""
+    },
+    {
+        "user": "Single imputation methods replace each missing value with one estimate, such as the mean, median, mode, or a constant. Multiple imputation methods generate several estimates for each missing value, and then combine them to produce a single result",
+        "interviewer": "Sure, here is a question for you:\n\nWhich technique would you use to impute missing values in a dataset where the underlying distribution is unknown and there are no other variables with which to make correlations?"
+    },
+    {
+        "user": "Median imputation is the  technique i would  use to impute missing values in a dataset where the underlying distribution is unknown and there are no other variables with which to make correlations",
+        "interviewer": "Sure, here's a question:\n\nWhat is the primary reason why median imputation would be used when the underlying distribution is unknown and there are no other variables to make correlations?"
+    },
+    {
+        "user": "Median imputation makes the assumption that the data is missing completely at random (MCAR),",
+        "interviewer": "Sure. Here's the question:\n\nHow would you identify the underlying assumption that the data is missing completely at random (MCAR) when analyzing a dataset with missing values?"
+    },
+    {
+        "user": "if the events that lead to any particular data-item being missing are independent both of observable variables and of unobservable parameters of interest, and occur entirely at random.",
+        "interviewer": "Sure, here's a question to help you assess the candidate's understanding:\n\n* Given the context, what does the independence of events leading to data-item missingness imply about the variables involved?"
+    },
+    {
+        "user": "here is no relationship between values of the variables (observed and missing) and the probability that they are missing. The missing elements are simply a random sample from the observed data.",
+        "interviewer": "Sure, here's a question to help assess the candidate's understanding of missing data and probability:\n\n\"Given a dataset with missing values, explain how the probability of missingness would affect the estimation of a target variable using statistical methods.\""
+    },
+    {
+        "user": "Suppose we have covariate dependent missing data, then the probability of missing a response Y or a predictor variable X is dependent on the value of some third variable Z. Except under special circumstances, this missingness will bias naive estimates of the regression relationship between X and Y. However, in the estimation of the regression relationship between X and Y given Z (i.e., where both X and Z are used as predictors of Y), then this missingness, while reducing the precision of the estimate, does not bias the parameters being estimated.",
+        "interviewer": "Sure, here's a question:\n\nWhat is the effect of missing data on the estimation of the regression relationship between X and Y?"
+    },
+    {
+        "user": " Data in which MCAR is present will not lead to biased estimates of the parameters of the mixed model. ",
+        "interviewer": "Sure, here's the question:\n\nWhat is the relationship between the presence of MCAR and the bias of estimates for parameters of a mixed model?"
+    }
+]
